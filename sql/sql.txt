@@ -1,0 +1,16 @@
+Table of books
+  - bookId (int)
+  - authorId (int)
+  - title (string)
+  - pages (int)
+  
+Table of authors
+  - authorId (int)
+  - name (string)
+
+
+
+1. Write a query to return a list of all books with the book title and the author's name
+
+2. Write a query to return a list of all authors and the total number of pages from all of their books.
+
