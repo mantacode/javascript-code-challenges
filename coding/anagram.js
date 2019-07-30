@@ -9,11 +9,11 @@ const isAnagram = (strA, strB) => {
 const assert = require('assert');
 const tests = () => {
   try {
-    assert(isAnagram('', ''));
     assert(isAnagram('I am Lord Voldemort', 'Tom Marvolo Riddle'));
     assert(isAnagram('Elvis', 'Lives'));
     assert(!isAnagram('nope', 'yep'));
     assert(isAnagram('The eyes', 'They see'));
+    assert(!isAnagram('', ''));
     console.log('All tests passed!');
   } catch(e) {
     console.log(e.message);
