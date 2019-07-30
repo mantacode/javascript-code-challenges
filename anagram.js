@@ -1,4 +1,4 @@
-// Right a function that tests if two strings are anagrams
+// Create a function that tests if two strings are anagrams
 // Anagrams are words that have the same letters in different places
 // Ex) I am Lord Voldemort == Tom Marvolo Riddle, Elvis == Lives
 
